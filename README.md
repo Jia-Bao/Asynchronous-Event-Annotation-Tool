@@ -1,4 +1,4 @@
-# eventlabel
+# Event annotation tool
 
 **An interactive asynchronous annotation tool for event-camera data.** You place tracker blobs on the target; a per-event extended Kalman filter (from the [AEB Tracker](https://arxiv.org/abs/2307.10593), IEEE TRO 2024) follows them and labels every event as target (1) or background (0) — with per-object track ids, multi-object workflows, review/retract, and AVI rendering. The asynchronous annotation methodology follows [ASUMOT](https://arxiv.org/abs/2607.11303) ([code](https://github.com/Jia-Bao/ASUMOT)).
 
