@@ -1,0 +1,27 @@
+eventlabel v1.0.0 - quick start / 快速上手
+==========================================================
+
+[EN]
+1. Unzip anywhere, double-click eventlabel.exe.
+2. Setup window: Browse... -> pick demo\demo_events.csv (or your own event
+   csv; for the demo set width=320, height=240).
+3. Press START. The video window opens FROZEN (pre-annotation): press A and
+   click on the moving object to place a tracker blob (press A again for
+   more blobs on the same object), then click the green START button (or
+   press S).
+4. Keys: A add blob | D delete+retract | R release (keep labels) | P pause |
+   N next object id | X remove object | F fps | V export videos | ESC end
+   file. After each file the setup window comes back - pick the next one.
+Full manual: README.md / README.zh-CN.md. License: LICENSE (academic use).
+
+[中文]
+1. 解压后双击 eventlabel.exe。
+2. 设置窗口：Browse... 选择 demo\demo_events.csv（或你自己的事件 CSV；
+   演示文件需设 width=320、height=240）。
+3. 点 START，视频窗口先冻结显示（首帧预标注）：按 A 后点击运动目标放置
+   跟踪 blob（同一对象可按多次 A 放多个），再点右下角绿色 START（或按
+   S 键）开始标注。
+4. 键位：A 加 blob｜D 删除并回退｜R 释放保留标签｜P 暂停｜N 下一个对象
+   id｜X 撤销对象｜F 帧率｜V 导出视频｜ESC 结束当前文件。每个文件标完
+   自动回到设置窗口，继续下一个。
+完整说明：README.zh-CN.md / README.md；许可：LICENSE（仅限学术用途）。

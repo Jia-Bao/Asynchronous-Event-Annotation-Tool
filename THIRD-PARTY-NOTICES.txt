@@ -1,0 +1,26 @@
+Third-party software bundled with eventlabel
+==================================================
+
+This archive redistributes the following third-party libraries in binary
+form. Each remains the property of its authors and is provided under its
+own license:
+
+- OpenCV 4.12.0 (opencv_*.dll)            Apache License 2.0        https://opencv.org
+- yaml-cpp 0.9.0 (yaml-cpp.dll)           MIT License               https://github.com/jbeder/yaml-cpp
+- Boost 1.92.0 - circular_buffer (boost)  Boost Software License 1.0 https://www.boost.org
+- Eigen (compiled in, header-only)        Mozilla Public License 2.0 https://eigen.tuxfamily.org
+- libjpeg-turbo (jpeg62.dll)              IJG / BSD-style license    https://github.com/libjpeg-turbo/libjpeg-turbo
+- libpng (libpng16.dll)                   libpng License             http://www.libpng.org
+- zlib (z.dll)                            zlib License               https://zlib.net
+- libtiff (tiff.dll)                      libtiff License            https://libtiff.gitlab.io
+- libwebp (libwebp*.dll, libsharpyuv.dll) BSD 3-Clause License       https://chromium.googlesource.com/webm/libwebp
+- liblzma (liblzma.dll)                   Public Domain (0BSD)       https://tukaani.org/xz/
+- Microsoft C++ runtime (vcruntime140*.dll, msvcp140*.dll)
+                                          Microsoft Visual C++ Redistributable license terms
+                                          https://aka.ms/vsredist
+
+Source attribution for components embedded in eventlabel.exe:
+- Asynchronous annotation methodology: ASUMOT (Jia et al., arXiv:2607.11303,
+  2026), https://arxiv.org/abs/2607.11303, https://github.com/Jia-Bao/ASUMOT
+- Tracking core: AEB Tracker (Asynchronous Blob Tracker for Event Cameras),
+  IEEE TRO 2024, https://arxiv.org/abs/2307.10593 - academic use only, see LICENSE.

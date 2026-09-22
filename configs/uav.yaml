@@ -1,0 +1,39 @@
+# eventlabel configuration (template)
+# input: <input_folder_path><input_data_name>.csv  (raw events, never modified)
+input_folder_path: "data/"
+input_data_name: "events"
+
+# canvas size = sensor resolution (coordinates are 0-based)
+width: 1280
+height: 720
+
+# 0: ts,c,r,p[,...]   1: c,r,p,ts[,...]
+data_format: 1
+
+dist_threshold: 10
+ring_buffer_len: 10
+dt: 0.001
+n_state: 10
+
+framerate: 30            # 30 / 60 / 120 (F key cycles at runtime)
+track_mode: false        # per-OBJECT id annotation (all blobs of one object share the id)
+pre_annotate: true       # first-frame pre-annotation + START button
+pre_annotate_time_s: 0.05
+export_videos: true      # auto export *_unlabeled_view.avi / *_labeled_view.avi
+export_csv: false        # full merged csv on demand (E key)
+label_point_flag: true   # write the sidecar index *_labels.csv
+
+var_vx: 100
+var_vy: 100
+var_lambda_1: 10
+var_lambda_2: 10
+var_theta: 0.5
+var_q: 2
+q_x: 200
+q_y: 200
+q_vx: 10000
+q_vy: 10000
+q_lambda_1: 10
+q_lambda_2: 10
+q_theta: 0.005
+q_q: 0.01

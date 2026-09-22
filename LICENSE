@@ -1,0 +1,37 @@
+eventlabel — interactive asynchronous annotation tool for event cameras
+Copyright (c) 2026 the eventlabel authors
+
+ACADEMIC USE LICENSE
+
+1. Grant. Permission is hereby granted, free of charge, to use, copy,
+   modify, and distribute this software and its documentation (or portions
+   thereof) for ACADEMIC, SCIENTIFIC AND RESEARCH PURPOSES ONLY, subject to
+   the conditions below.
+
+2. Non-academic use. Any commercial or other non-academic use of this
+   software, in whole or in part, is prohibited without prior written
+   permission of the copyright holders.
+
+3. Derived work notice. The event-blob tracking core of this software
+   (src/kalman.cpp / src/kalman.hpp) is derived from the AEB Tracker
+   ("Asynchronous Blob Tracker for Event Cameras", Wang, Molloy, van Goor
+   and Mahony, IEEE Transactions on Robotics, 2024, https://arxiv.org/abs/2307.10593),
+   which is released by its authors for academic use only. The terms of this
+   license follow that restriction and redistribute the derived components
+   under the same condition.
+
+4. Attribution. Academic use, redistribution or derivative works must
+   retain this license notice and must cite:
+   - the ASUMOT paper (asynchronous annotation methodology):
+     B. Jia, X. Chen, J. Zhang, Z. Wu, H. Li, J. Han, L. Bai,
+     "ASUMOT: Motion-Consistency-Based Asynchronous UAV Detection and
+     Tracking with Event Cameras", arXiv:2607.11303, 2026,
+     https://arxiv.org/abs/2607.11303 (code: https://github.com/Jia-Bao/ASUMOT),
+   - the AEB Tracker paper (tracking core, item 3 above), and
+   - this software (eventlabel).
+
+5. NO WARRANTY. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+   CLAIM, DAMAGES OR OTHER LIABILITY IN CONNECTION WITH THE SOFTWARE.
