@@ -141,8 +141,8 @@ data_format=1: c, r, p, ts(us)[, label[, track_id]]
 
 > Ziwei Wang, Timothy Molloy, Pieter van Goor and Robert Mahony, "Asynchronous Blob Tracker for Event Cameras", *IEEE Transactions on Robotics*, 2024. [arXiv:2307.10593](https://arxiv.org/abs/2307.10593)
 
-使用本工具时请引用 ASUMOT 论文（标注方法）与 AEB 论文（跟踪内核），并附本发布链接。
+使用本工具时请引用 ASUMOT 论文（标注方法）与 AEB 论文（跟踪内核）。
 
 ## 许可
 
-仅限学术用途——详见 [LICENSE](LICENSE)（英文）。上游 AEB Tracker 以 "for academic use only" 发布，衍生跟踪内核继承该限制。
+仅限学术用途——详见 [LICENSE](LICENSE)（英文）。
