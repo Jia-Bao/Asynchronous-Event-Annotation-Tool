@@ -145,4 +145,4 @@ If you use this tool, please cite the ASUMOT paper (annotation methodology), the
 
 ## License
 
-Academic use only — see [LICENSE](LICENSE). The upstream AEB Tracker is released "for academic use only", and the derived tracking core inherits that restriction.
+Academic use only — see [LICENSE](LICENSE). 
