@@ -1,4 +1,4 @@
-# eventlabel
+# Event annotation tool
 
 **事件相机数据交互式异步标注工具。** 你只需在目标上放置跟踪 blob，逐事件扩展卡尔曼滤波（来自 [AEB Tracker](https://arxiv.org/abs/2307.10593)，IEEE TRO 2024）会跟随 blob 并把每个事件标注为目标（1）或背景（0）——支持按对象分配跟踪 id、多对象工作流、回看/撤销、AVI 视频渲染。异步标注方法来自 [ASUMOT](https://arxiv.org/abs/2607.11303)（[代码](https://github.com/Jia-Bao/ASUMOT)）。
 
