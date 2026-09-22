@@ -141,7 +141,7 @@ The tracking core is derived from the AEB Tracker:
 
 > Ziwei Wang, Timothy Molloy, Pieter van Goor and Robert Mahony, "Asynchronous Blob Tracker for Event Cameras", *IEEE Transactions on Robotics*, 2024. [arXiv:2307.10593](https://arxiv.org/abs/2307.10593)
 
-If you use this tool, please cite the ASUMOT paper (annotation methodology), the AEB paper (tracking core), and link this release.
+If you use this tool, please cite the ASUMOT paper (annotation methodology), the AEB paper (tracking core).
 
 ## License
 
